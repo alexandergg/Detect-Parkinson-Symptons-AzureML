@@ -117,11 +117,11 @@ Run `src/mlops-pipeline/mlops-submit-pipeline.ipynb` to execute/invoke this publ
 
 You can see the runs pipelines in the Azure portal.
 
-![Experiment Pipeline in portal](docs/aml-experiments-pipeline.jpg)
+![Experiment Pipeline in portal](docs/aml-experiments-pipeline.png)
 
-![Experiments in portal](docs/aml-experiments.jpg)
+![Experiments in portal](docs/aml-experiments.png)
 
-![Experiment models in portal](docs/aml-experiments-models.jpg)
+![Experiment models in portal](docs/aml-experiments-models.png)
 
 # References
 
