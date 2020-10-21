@@ -6,7 +6,7 @@ products:
 description: "Detect Parkinson Symptoms"
 ---
 
-![App Overview](./docs/rai.jpeg =800x500)
+![App Overview](docs/rai.jpeg =800x500)
 
 # Detect Parkinson Symptoms
 # Introduction
@@ -109,7 +109,7 @@ Run `src/mlops-pipeline/mlops-publish-pipeline.ipynb` to create a machine learni
 
 You can see the runs pipelines in the Azure portal.
 
-![Pipelines endpoints in portal](/docs/aml-pipeline-endpoints.jpg =800x600)
+![Pipelines endpoints in portal](docs/aml-pipeline-endpoints.jpg =800x600)
 
 ## 4. Submit pipeline using API Rest 
 
@@ -117,11 +117,11 @@ Run `src/mlops-pipeline/mlops-submit-pipeline.ipynb` to execute/invoke this publ
 
 You can see the runs pipelines in the Azure portal.
 
-![Experiment Pipeline in portal](/docs/aml-experiments-pipeline.jpg =800x600)
+![Experiment Pipeline in portal](docs/aml-experiments-pipeline.jpg =800x600)
 
-![Experiment Pipeline in portal](/docs/aml-experiments.jpg =800x600)
+![Experiments in portal](docs/aml-experiments.jpg =800x600)
 
-![Experiment Pipeline in portal](/docs/aml-experiments-models.jpg =800x600)
+![Experiment models in portal](docs/aml-experiments-models.jpg =800x600)
 
 # References
 
