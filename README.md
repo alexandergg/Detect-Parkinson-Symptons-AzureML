@@ -80,12 +80,6 @@ We need a infrastructure in Azure to run the experiment. You can read more about
 
 To facilitate the task of creating the infrastructure, you can run the `infrastructure/DeployUnified.ps1` script. You have to indicate the **Resource Group**, the **Location** and the **Suscription Id**.
 
-The final view of the Azure resource group will be like the following image:
-
-![resource-group](./docs/rg-view.png =800x600)
-
-**Note:** The services you see marked with a red line will be created in the next steps. Don't worry about it!
-
 ## 2. Install Project dependencies
 
 ### Virtual environments to execute Azure Machine Learning notebooks
@@ -115,7 +109,7 @@ Run `src/mlops-pipeline/mlops-publish-pipeline.ipynb` to create a machine learni
 
 You can see the runs pipelines in the Azure portal.
 
-![Pipelines in portal](/docs/pipelines.jpg =800x600)
+![Pipelines endpoints in portal](/docs/aml-pipeline-endpoints.jpg =800x600)
 
 ## 4. Submit pipeline using API Rest 
 
@@ -123,7 +117,11 @@ Run `src/mlops-pipeline/mlops-submit-pipeline.ipynb` to execute/invoke this publ
 
 You can see the runs pipelines in the Azure portal.
 
-![Pipelines in portal](/docs/pipelines_runs.jpg =800x600)
+![Experiment Pipeline in portal](/docs/aml-experiments-pipeline.jpg =800x600)
+
+![Experiment Pipeline in portal](/docs/aml-experiments.jpg =800x600)
+
+![Experiment Pipeline in portal](/docs/aml-experiments-models.jpg =800x600)
 
 # References
 
