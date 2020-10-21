@@ -1,0 +1,36 @@
+{
+  "preprocessing_step": [
+    {
+      "datastore": {
+        "pipeline_parameter_name": "datastore_preprocessing_step",
+        "pipeline_parameter_value": "workspaceblobstore"
+      }
+    },
+    {
+      "dataset_name": {
+        "pipeline_parameter_name": "dataset_name_preprocessing_step",
+        "pipeline_parameter_value": "acc_final_v3_"
+      }
+    },
+    {
+      "dataset_preprocessed_name": {
+        "pipeline_parameter_name": "dataset_preprocessed_name_preprocessing_step",
+        "pipeline_parameter_value": "parkinson_preprocessed"
+      }
+    }
+  ],
+  "register_model_step": [
+    {
+      "model_name": {
+        "pipeline_parameter_name": "model_name_register_model_step",
+        "pipeline_parameter_value": "parkinson_model_automl"
+      }
+    },
+    {
+      "dataset_name": {
+        "pipeline_parameter_name": "dataset_name_register_model_step",
+        "pipeline_parameter_value": "parkinson_preprocessed_train"
+      }
+    }
+  ]
+}
