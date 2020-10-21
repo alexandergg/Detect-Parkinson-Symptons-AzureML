@@ -109,7 +109,7 @@ Run `src/mlops-pipeline/mlops-publish-pipeline.ipynb` to create a machine learni
 
 You can see the runs pipelines in the Azure portal.
 
-![Pipelines endpoints in portal](docs/aml-pipeline-endpoints.jpg)
+![Pipelines endpoints in portal](docs/aml-pipeline-endpoints.png)
 
 ## 4. Submit pipeline using API Rest 
 
